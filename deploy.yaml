@@ -26,7 +26,7 @@ metadata:
   name: my-svc
   namespace: poc
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: nginx
   ports:
